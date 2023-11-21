@@ -19,9 +19,29 @@ int main() {
     std::cout << "Enter #2: ";
     std::cin >> num2;
 
-    
+    switch(op) {
+        case '+':
+            result = num1 + num2;
+            std::cout << "result: " << result << '\n';
+            break;
+        case '-':
+            result = num1 - num2;
+            std::cout << "result: " << result << '\n';
+            break;
+        case '*':
+            result = num1 * num2;
+            std::cout << "result: " << result << '\n';
+            break;
+        case '/':
+            result = num1 / num2;
+            std::cout << "result: " << result << '\n';
+            break;
+        default:
+            std::cout << "That was not a valid response";
+            break;
+    }
 
-    std::cout << "******************************";
+    std::cout << "*************************************";
 
     return 0;
 
