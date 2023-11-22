@@ -8,7 +8,23 @@ int main() {
         // || = check if at least one of the two conditions is true
         // ! = reverses the logical state of its operand
 
+    int temp;
+
+    std::cout << "Enter the temperature: ";
+    std::cin >> temp;
+
+    // MARK: - Or Logical Operator Example: '||'
+
     
+
+
+    // MARK: - And Logical Operator Example: '&&'
+
+    /* if (temp > 0 && temp < 30) {
+        std::cout << "The temperature is good!";
+    } else {
+        std::cout << "The temperature is bad!";
+    } */
 
     return 0;
 
