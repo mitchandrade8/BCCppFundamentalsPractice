@@ -11,8 +11,8 @@ int main() {
     int temp;
     bool sunny = true;
 
-    std::cout << "Enter the temperature: ";
-    std::cin >> temp;
+    /* std::cout << "Enter the temperature: ";
+    std::cin >> temp; */
 
 
     // MARK: - Not Logical Operator Example: '!'
