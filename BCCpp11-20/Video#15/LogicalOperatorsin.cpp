@@ -13,9 +13,14 @@ int main() {
     std::cout << "Enter the temperature: ";
     std::cin >> temp;
 
+
     // MARK: - Or Logical Operator Example: '||'
 
-    
+    if (temp <= 0 || temp >= 30) {
+        std::cout << "The temperature is bad!";
+    } else {
+        std::cout << "The temperature is good!";
+    }
 
 
     // MARK: - And Logical Operator Example: '&&'
