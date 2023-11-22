@@ -10,7 +10,11 @@ int main() {
 
     // MARK: - Empty String Method:
 
-    
+    if (name.empty()) {
+        std::cout << "You did not enter your name!";
+    } else {
+        std::cout << "Hello " << name;
+    }
 
     // MARK: - Length String Method:
 
