@@ -9,18 +9,27 @@ int main() {
         // ! = reverses the logical state of its operand
 
     int temp;
+    bool sunny = true;
 
     std::cout << "Enter the temperature: ";
     std::cin >> temp;
 
 
+    // MARK: - Not Logical Operator Example: '!'
+
+    if (sunny == true) {
+        std::cout << "It is sunny outside!";
+    } else {
+        std::cout << "It is cloudy outside!";
+    }
+
     // MARK: - Or Logical Operator Example: '||'
 
-    if (temp <= 0 || temp >= 30) {
+    /* if (temp <= 0 || temp >= 30) {
         std::cout << "The temperature is bad!";
     } else {
         std::cout << "The temperature is good!";
-    }
+    } */
 
 
     // MARK: - And Logical Operator Example: '&&'
